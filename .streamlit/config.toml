@@ -1,0 +1,27 @@
+[theme]
+base = "dark"
+primaryColor = "#6366F1"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#151F32"
+textColor = "#F8FAFC"
+font = "sans-serif"
+borderColor = "#293548"
+baseRadius = "12px"
+linkColor = "#06B6D4"
+dataframeBorderColor = "#293548"
+dataframeHeaderBackgroundColor = "#1E293B"
+
+[theme.sidebar]
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#151F32"
+borderColor = "#293548"
+
+[server]
+headless = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
